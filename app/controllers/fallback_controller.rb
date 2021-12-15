@@ -1,4 +1,4 @@
-class FallbackController < < ActionController::Base
+class FallbackController < ActionController::Base
 
     def index
         #I need to create a site here to render in case of not found page.
