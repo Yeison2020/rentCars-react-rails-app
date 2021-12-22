@@ -1,12 +1,12 @@
 import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import MainRouter from "../MainRoutes/MainRoutes";
 
 const AppRouter = () => {
-  fetch();
-
   return (
-    <div>
-      <h1>Hello world</h1>
-    </div>
+    <Router>
+      <MainRouter />
+    </Router>
   );
 };
 
