@@ -1,4 +1,5 @@
 import React from "react";
+import "./navBar.css";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -6,7 +7,11 @@ const Navbar = () => {
     <div className="topNavBar">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <NavLink className="navbar-brand" to="#">
-          Navbar
+          <img
+            className="logo-image"
+            src="https://img.icons8.com/ios-glyphs/30/000000/car-rental.png"
+            alt="logo cars rentals"
+          />
         </NavLink>
         <button
           className="navbar-toggler"
@@ -20,25 +25,29 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item active">
-              <NavLink className="nav-link" to="#">
-                Home <span className="sr-only">(current)</span>
+          <ul className="navbar-nav ml-auto">
+            <li className="active">
+              <NavLink className="nav-link mt" to="#">
+                Learn more
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link mt" to="#">
+                Log in
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link mt" to="#">
+                Sign up
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="#">
-                Features
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="#">
-                Pricing
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link disabled" to="#">
-                Disabled
+                <img
+                  className="user-logo"
+                  src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-user-interface-kiranshastry-lineal-kiranshastry.png"
+                  alt="user logo"
+                />
               </NavLink>
             </li>
           </ul>
