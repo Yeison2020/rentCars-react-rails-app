@@ -1,2 +1,43 @@
 .background-image-car {
+  background-image: url("https://www.nerdwallet.com/assets/blog/wp-content/uploads/2020/09/GettyImages-1159573826-770x462.jpg");
+  height: 300px;
+  border-bottom: 10px;
+}
+
+.main-Router-Container {
+  width: 100%;
+  height: 100%;
+}
+
+.list-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.make-brand {
+  margin-top: 10px;
+  margin-left: 10%;
+}
+
+.list-card > h1 {
+  margin: auto;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 700px;
+  font-family: "Volkhov", serif;
+}
+.list-card > h5 {
+  font-size: 20px;
+  font-weight: 700px;
+  font-family: "Volkhov", serif;
+}
+
+.make-brand > h5 {
+  font-size: 20px;
+  font-weight: 700px;
+  font-family: "Volkhov", serif;
 }

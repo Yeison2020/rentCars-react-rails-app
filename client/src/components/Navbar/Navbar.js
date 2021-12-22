@@ -27,17 +27,17 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="active">
-              <NavLink className="nav-link mt" to="#">
+              <NavLink className="nav-link mt" id="text-style" to="#">
                 Learn more
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link mt" to="#">
+              <NavLink className="nav-link mt" id="text-style" to="#">
                 Log in
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link mt" to="#">
+              <NavLink className="nav-link mt" id="text-style" to="#">
                 Sign up
               </NavLink>
             </li>

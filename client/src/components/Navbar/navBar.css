@@ -11,3 +11,8 @@
 .mt {
   margin-top: 6px;
 }
+
+#text-style {
+  font-size: 1rem;
+  font-family: "Vujahday Script", cursive;
+}
